@@ -151,6 +151,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\CustomExceptionFilter.cs" />
     <Compile Include="Infrastructure\ModelMappers.cs" />
     <Compile Include="Infrastructure\NinjectDependencyResolver.cs" />
     <Compile Include="Infrastructure\ResultHelper.cs" />
@@ -269,6 +270,7 @@
     <Content Include="Views\Results\AddResults.cshtml" />
     <Content Include="Views\Results\ConfirmAction.cshtml" />
     <Content Include="Views\Results\AddResult.cshtml" />
+    <Content Include="Views\Shared\ExceptionFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Uploads\" />

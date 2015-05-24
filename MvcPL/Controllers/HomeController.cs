@@ -11,6 +11,7 @@ using System.Configuration;
 
 namespace MvcPL.Controllers
 {
+    [CustomExceptionFilter]
     public class HomeController : Controller
     {
         private readonly IResultService resultService;

@@ -15,6 +15,7 @@ using System.Configuration;
 namespace MvcPL.Controllers
 {
     [AllowAnonymous]
+    [CustomExceptionFilter]
     public class AccountController : Controller
     {
         private readonly IAccountService accountService;

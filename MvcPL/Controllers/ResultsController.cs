@@ -12,6 +12,7 @@ using System.Web.Mvc;
 
 namespace MvcPL.Controllers
 {
+    [CustomExceptionFilter]
     public class ResultsController : Controller
     {
         private readonly IResultService resultService;
