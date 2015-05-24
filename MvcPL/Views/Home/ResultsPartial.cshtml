@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MvcPL.Models.ResultViewModel>
+
+@{
+    String adminName = System.Configuration.ConfigurationManager.AppSettings["AdminRoleName"];
+}
+
+<legend>@ViewBag.ViewTitle results</legend>
+
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Place)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Points)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AthleteName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompetitionTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompetitionProgram)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Place)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Points)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AthleteName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CompetitionTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CompetitionProgram)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

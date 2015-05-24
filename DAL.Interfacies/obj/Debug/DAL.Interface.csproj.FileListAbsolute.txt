@@ -1,0 +1,22 @@
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb

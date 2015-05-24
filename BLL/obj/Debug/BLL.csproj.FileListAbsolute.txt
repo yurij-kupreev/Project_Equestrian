@@ -1,0 +1,76 @@
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\obj\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\obj\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\bin\Debug\BLL.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\bin\Debug\BLL.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\bin\Debug\BLL.Interfacies.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\bin\Debug\DAL.Interfacies.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\bin\Debug\BLL.Interfacies.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\bin\Debug\DAL.Interfacies.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\obj\Debug\BLL.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\BLL\obj\Debug\BLL.pdb
+D:\Учеба\курсач2\course_project_equestrian\BLL\bin\Debug\BLL.dll
+D:\Учеба\курсач2\course_project_equestrian\BLL\bin\Debug\BLL.pdb
+D:\Учеба\курсач2\course_project_equestrian\BLL\bin\Debug\BLL.Interfacies.dll
+D:\Учеба\курсач2\course_project_equestrian\BLL\bin\Debug\DAL.Interfacies.dll
+D:\Учеба\курсач2\course_project_equestrian\BLL\bin\Debug\BLL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\BLL\bin\Debug\DAL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Учеба\курсач2\course_project_equestrian\BLL\obj\Debug\BLL.dll
+D:\Учеба\курсач2\course_project_equestrian\BLL\obj\Debug\BLL.pdb

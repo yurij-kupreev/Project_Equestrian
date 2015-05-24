@@ -1,0 +1,36 @@
+﻿@{
+    String adminName = System.Configuration.ConfigurationManager.AppSettings["AdminRoleName"];
+}
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Equestrian: dressage", "Index", "Home", null, new { @class = "navbar-brand" })
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Athlete top", "AthleteList", "Home")</li>
+                <li>@Html.ActionLink("Competition list", "CompetitionList", "Home")</li>
+                @{
+                    if (User.IsInRole(adminName))
+                    {
+                        <li>@Html.ActionLink("Result list", "ResultList", "Results")</li>
+                        <li>@Html.ActionLink("User list", "Index", "Account")</li>
+                    }
+                }
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                @Html.Partial("_Authorize")
+            </ul>
+
+        </div>
+    </div>
+</nav>

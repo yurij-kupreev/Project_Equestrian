@@ -1,0 +1,66 @@
+﻿@model MvcPL.Models.RegistrationViewModel
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+@using (Html.BeginForm("Registration", "Account", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    
+    <fieldset>
+        <legend>Register</legend>
+        <div class="control-group">
+            <label class="control-label" for="Email">
+                Email
+            </label>
+            <div class="controls">
+                @Html.TextBox("Email", Model.Email)
+                @Html.ValidationMessage("Email")
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="FirstName">
+                Password
+            </label>
+            <div class="controls">
+                @Html.Password("Password", Model.Password)
+                @Html.ValidationMessage("Password")
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="FirstName">
+                Confirm Password
+            </label>
+            <div class="controls">
+                @Html.Password("ConfirmPassword", Model.ConfirmPassword)
+                @Html.ValidationMessage("ConfirmPassword")
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="FirstName">
+                Captcha
+            </label>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="FirstName">
+                <img src="@Url.Action("Captcha", "Account")" alt="captcha" />
+            </label>
+            <div class="controls">
+                @Html.TextBox("Captcha", Model.Captcha)
+                @Html.ValidationMessage("Captcha")
+            </div>
+        </div>
+        <br />
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Register</button>
+            @Html.ActionLink("Cancel", "Index", "Home", null, new { @class = "btn btn-default" })
+        </div>
+
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

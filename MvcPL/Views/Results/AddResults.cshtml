@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Add results";
+}
+<fieldset>
+    <h3>Select a file to upload results</h3>
+    @using (Html.BeginForm("AddResults", "Results", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div>
+            <input type="file" name="file" />
+        </div>
+        <div>
+            <input type="submit" value="Upload" />
+        </div>
+    }
+</fieldset>
+

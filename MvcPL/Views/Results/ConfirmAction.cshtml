@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "ConfirmAction";
+}
+
+<h2>ConfirmAction</h2>
+
+@using (Html.BeginForm(new {index = ViewBag.Index} ))
+{
+    @Html.AntiForgeryToken()
+    <fieldset>
+        <legend>Do action?</legend>
+
+        <br />
+        <div>
+            <button type="submit" class="btn btn-primary">Yes</button>
+            @Html.ActionLink("Cancel", "ResultList", "Results", null, new { @class = "btn btn-default" })
+        </div>
+    </fieldset>
+}

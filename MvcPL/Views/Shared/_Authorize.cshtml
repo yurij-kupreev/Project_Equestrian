@@ -1,0 +1,25 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    String adminName = System.Configuration.ConfigurationManager.AppSettings["AdminRoleName"];
+    string s = String.Empty;
+
+    if (User.IsInRole(adminName))
+    {
+        s = "Administrator: ";
+    }
+    <li>@Html.ActionLink(s + HttpContext.Current.User.Identity.Name, "UserInfo", "Account")</li>
+    if (User.IsInRole(adminName))
+    {
+        <li>@Html.ActionLink("Upload results", "AddResults", "Results")</li>
+    }
+    <li>@Html.ActionLink("Exit", "LogOff", "Account")</li>
+
+
+}
+else
+{
+
+    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+    <li>@Html.ActionLink("Register", "Registration", "Account")</li>
+
+}

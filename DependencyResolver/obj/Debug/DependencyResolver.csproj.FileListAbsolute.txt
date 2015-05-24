@@ -1,0 +1,190 @@
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\obj\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\obj\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\ORM.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\ORM.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\ORM.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\DAL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\ORM.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\obj\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\obj\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.pdb
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.xml
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.xml
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.dll
+D:\epam courses\Day 12\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DependencyResolver.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\BLL.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\DAL.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\ORM.pdb
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.xml
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.xml
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.dll
+D:\epam courses\Day 12(1)\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DependencyResolver\obj\Debug\DependencyResolver.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\DependencyResolver.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\DependencyResolver.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\BLL.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\DAL.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\ORM.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\BLL.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\DAL.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\ORM.pdb
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.xml
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.xml
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\obj\Debug\DependencyResolver.dll
+D:\Учеба\курсач2\temp\course_project_equestrian\DependencyResolver\obj\Debug\DependencyResolver.pdb
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\DependencyResolver.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\DependencyResolver.pdb
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\BLL.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\DAL.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\ORM.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\BLL.pdb
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\DAL.pdb
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\ORM.pdb
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.xml
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.xml
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\obj\Debug\DependencyResolver.dll
+D:\Учеба\курсач2\course_project_equestrian\DependencyResolver\obj\Debug\DependencyResolver.pdb
