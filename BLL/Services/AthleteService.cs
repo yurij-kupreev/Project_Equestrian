@@ -26,15 +26,20 @@ namespace BLL.Services
                 Select(athlete => athlete.ToBllAthlete());
         }
 
+        public IEnumerable<AthleteEntity> GetAthletesByName(string term)
+        {
+            return athleteRepository.GetByName(term).OrderBy(item => item.AthleteName)
+                .Select(item => item.ToBllAthlete());
+        }
+        public AthleteEntity GetAthleteById(int athleteKey)
+        {
+            return athleteRepository.GetByPredicate(item => item.Id == athleteKey).ToBllAthlete();
+        }
+
         public void CreateAthlete(AthleteEntity athlete)
         {
             athleteRepository.Create(athlete.ToDalAthlete());
             uow.Commit();
-        }
-
-        public AthleteEntity GetAthleteById (int athleteKey)
-        {
-            return athleteRepository.GetByPredicate(item => item.Id == athleteKey).ToBllAthlete();
         }
 
         public void EditAthlete(AthleteEntity athlete)

@@ -13,6 +13,7 @@ using System.Web.Mvc;
 namespace MvcPL.Controllers
 {
     [CustomExceptionFilter]
+    [Authorize(Roles = "admin")]
     public class ResultsController : Controller
     {
         private readonly IResultService resultService;
@@ -25,14 +26,12 @@ namespace MvcPL.Controllers
             this.competitionService = competitionService;
         }
 
-        [Authorize(Roles = "admin")]
         public ActionResult ResultList()
         {
             return View(resultService.GetAllResultEntities()
                 .Select(result => result.ToResultView()));
         }
 
-        [Authorize(Roles = "admin")]
         [HttpGet]
         public ActionResult AddResults()
         {
@@ -56,9 +55,10 @@ namespace MvcPL.Controllers
                     if (data != fileFormat)
                     {
                         newResult = ResultHelper.ParseAndWriteResultString(data);
-                        if (newResult.DateEnd >= newResult.DateBegin)
-                            resultService.CreateResult(newResult.ToResultEntity(), 
-                                       newResult.ToAthleteEntity(), newResult.ToCompetitionEntity());
+                        if (newResult != null)
+                            if (newResult.DateEnd >= newResult.DateBegin)
+                                resultService.CreateResult(newResult.ToResultEntity(),
+                                           newResult.ToAthleteEntity(), newResult.ToCompetitionEntity());
                     }
                 }
             }
@@ -66,7 +66,6 @@ namespace MvcPL.Controllers
             return RedirectToAction("ResultList");
         }
 
-        [Authorize(Roles = "admin")]
         [HttpGet]
         public ActionResult EditResult(int? index)
         {
@@ -94,7 +93,7 @@ namespace MvcPL.Controllers
                 });
         }
         [HttpPost]
-        public ActionResult EditResult(ResultsAddModel changedResult, int resultId, 
+        public ActionResult EditResult(ResultsAddModel changedResult, int resultId,
             int athleteId, int competitionId)
         {
             resultService.EditResult(changedResult.ToResultEntity(resultId));
@@ -103,7 +102,6 @@ namespace MvcPL.Controllers
             return RedirectToAction("ResultList");
         }
 
-        [Authorize(Roles = "admin")]
         [HttpGet]
         public ActionResult AddResult()
         {
@@ -115,12 +113,11 @@ namespace MvcPL.Controllers
         public ActionResult AddResult(ResultsAddModel newResult)
         {
             if (newResult.DateEnd >= newResult.DateBegin)
-                resultService.CreateResult(newResult.ToResultEntity(), newResult.ToAthleteEntity(), 
+                resultService.CreateResult(newResult.ToResultEntity(), newResult.ToAthleteEntity(),
                     newResult.ToCompetitionEntity());
             return RedirectToAction("ResultList");
         }
 
-        [Authorize(Roles = "admin")]
         [HttpGet]
         public ActionResult DeleteResult(int index)
         {
@@ -139,7 +136,6 @@ namespace MvcPL.Controllers
             return RedirectToAction("ResultList");
         }
 
-        [Authorize(Roles = "admin")]
         [HttpGet]
         public ActionResult DeleteAllResults(int? index)
         {

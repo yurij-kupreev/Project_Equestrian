@@ -25,6 +25,11 @@ namespace BLL.Services
             return competitionRepository.GetAll().Select(competition => competition.ToBllCompetition());
         }
 
+        public CompetitionEntity GetCompetitionById(int competitionKey)
+        {
+            return competitionRepository.GetByPredicate(item => item.Id == competitionKey).ToBllCompetition();
+        }
+
         public void CreateCompetition(CompetitionEntity competition)
         {
             competitionRepository.Create(competition.ToDalCompetition());
@@ -35,11 +40,6 @@ namespace BLL.Services
         {
             competitionRepository.Update(competition.ToDalCompetition());
             uow.Commit();
-        }
-
-        public CompetitionEntity GetCompetitionById(int competitionKey)
-        {
-            return competitionRepository.GetByPredicate(item => item.Id == competitionKey).ToBllCompetition();
         }
     }
 }

@@ -7,7 +7,7 @@
     {
         s = "Administrator: ";
     }
-    <li>@Html.ActionLink(s + HttpContext.Current.User.Identity.Name, "UserInfo", "Account")</li>
+    <li>@Html.ActionLink(s + HttpContext.Current.User.Identity.Name, "Index", "Home")</li>
     if (User.IsInRole(adminName))
     {
         <li>@Html.ActionLink("Upload results", "AddResults", "Results")</li>

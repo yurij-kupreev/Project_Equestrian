@@ -57,12 +57,6 @@ namespace BLL.Services
             uow.Commit();
         }
 
-        public void EditResult(ResultEntity result)
-        {
-            resultRepository.Update(result.ToDalResult());
-            uow.Commit();
-        }
-
         public void CreateResult(ResultEntity result, AthleteEntity athlete, CompetitionEntity competition)
         {
             athleteRepository.Create(athlete.ToDalAthlete());
@@ -83,6 +77,12 @@ namespace BLL.Services
                 && item.DateBegin == dateBegin && item.DateEnd == dateEnd).Id;
 
             resultRepository.Create(result.ToDalResult());
+            uow.Commit();
+        }
+
+        public void EditResult(ResultEntity result)
+        {
+            resultRepository.Update(result.ToDalResult());
             uow.Commit();
         }
 

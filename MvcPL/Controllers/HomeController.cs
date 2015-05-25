@@ -74,5 +74,12 @@ namespace MvcPL.Controllers
                 return PartialView("ResultsPartial", model);
             }
         }
+
+        [Authorize]
+        public ActionResult AthleteSearch(string name)
+        {
+            var athletes = athleteService.GetAthletesByName(name).Select(item => item.ToAthleteView());
+            return View("AthleteList", athletes);
+        }
     }
 }

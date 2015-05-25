@@ -13,23 +13,26 @@ namespace BLL.Services
         private readonly IUnitOfWork uow;
         private readonly IUserRepository userRepository;
         private readonly IRoleRepository roleRepository;
-
+        
         public AccountService(IUnitOfWork uow, IUserRepository userRepository, IRoleRepository roleRepository)
         {
             this.uow = uow;
             this.userRepository = userRepository;
             this.roleRepository = roleRepository;
         }
-
+        
         public IEnumerable<UserEntity> GetAllUserEntities()
         {
                 return userRepository.GetAll().Select(user => user.ToBllUser()); 
         }
+
+        public int GetRoleIdByName(string roleName)
+        {
+            return roleRepository.GetByPredicate(p => p.Name == roleName).ToBllRole().Id;
+        }
+
         public bool Any(string email)
         {
-            //var daluser = userRepository.GetByPredicate(p => p.Email == email);
-            //if (daluser == null) return false;
-            //else return true;
             return userRepository.Any(email);
         }
 
@@ -41,11 +44,6 @@ namespace BLL.Services
         public RoleEntity GetRoleById(int roleKey)
         {
             return roleRepository.GetByPredicate(p => p.Id == roleKey).ToBllRole();
-        }
-
-        public int GetRoleIdByName(string roleName)
-        {
-            return roleRepository.GetByPredicate(p => p.Name == roleName).ToBllRole().Id;
         }
 
         public void CreateUser(UserEntity user)

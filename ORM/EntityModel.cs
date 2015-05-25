@@ -10,7 +10,6 @@ namespace ORM
             : base("name=EquestrianResultsModel")
         {
             Debug.WriteLine("Context creating!");            
-            Database.SetInitializer<EntityModel>(new EquestrianDbInitializer());
         }
 
         public DbSet<Athlete> Athlets { get; set; }
