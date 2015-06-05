@@ -20,7 +20,7 @@ namespace DAL.Concrete
             this.context = uow;
         }
 
-        public IEnumerable<DalUser> GetAll()
+        public IQueryable<DalUser> GetAll()
         {
             return context.Set<User>().Select(user => new DalUser()
                         {

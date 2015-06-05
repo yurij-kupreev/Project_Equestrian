@@ -5,7 +5,7 @@ namespace BLL.Interface.Services
 {
     public interface IResultService
     {
-        IEnumerable<ResultEntity> GetAllResultEntities();
+        IEnumerable<ResultEntity> GetAllResultEntities(int numPage);
         IEnumerable<ResultEntity> GetCompetitionResults(int competitionKey);
         IEnumerable<ResultEntity> GetAtheleteResults(int athleteKey);
         ResultEntity GetResultById(int resultKey);

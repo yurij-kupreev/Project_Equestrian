@@ -23,7 +23,7 @@ namespace BLL.Services
         
         public IEnumerable<UserEntity> GetAllUserEntities()
         {
-                return userRepository.GetAll().Select(user => user.ToBllUser()); 
+            return userRepository.GetAll().AsEnumerable().Select(user => user.ToBllUser()); 
         }
 
         public int GetRoleIdByName(string roleName)

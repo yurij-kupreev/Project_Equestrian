@@ -26,9 +26,10 @@ namespace BLL.Services
             this.competitionRepository = competitionRepository;
         }
 
-        public IEnumerable<ResultEntity> GetAllResultEntities()
+        public IEnumerable<ResultEntity> GetAllResultEntities(int numPage)
         {
-            return resultRepository.GetAll().Select(result => result.ToBllResult());
+            return resultRepository.GetAll().OrderByDescending(item => item.Id)
+                .Skip(numPage * 10).Take(10).AsEnumerable().Select(result => result.ToBllResult());
         }
 
         public IEnumerable<ResultEntity> GetCompetitionResults(int competitionKey)

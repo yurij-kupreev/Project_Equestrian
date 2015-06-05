@@ -20,7 +20,7 @@ namespace DAL.Concrete
             this.context = uow;
         }
 
-        public IEnumerable<DalRole> GetAll()
+        public IQueryable<DalRole> GetAll()
         {
             return context.Set<Role>().Select(role => new DalRole()
             {

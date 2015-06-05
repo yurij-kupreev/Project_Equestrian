@@ -19,11 +19,13 @@ namespace BLL.Services
             this.athleteRepository = repository;
         }
 
-        public IEnumerable<AthleteEntity> GetAllAthleteEntities()
+        public IEnumerable<AthleteEntity> GetAllAthleteEntities(int numPage)
         {
-            return athleteRepository.GetAll().
-                OrderByDescending(p => p.Points).
+            var model = athleteRepository.GetAll().
+                OrderByDescending(p => p.Points).Skip(numPage * 10).Take(10).AsEnumerable().
                 Select(athlete => athlete.ToBllAthlete());
+            //model.Skip(numPage * 10).Take(10);
+            return model;
         }
 
         public IEnumerable<AthleteEntity> GetAthletesByName(string term)

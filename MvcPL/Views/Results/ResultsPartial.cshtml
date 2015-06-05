@@ -1,24 +1,14 @@
 ﻿@model IEnumerable<MvcPL.Models.ResultViewModel>
 
 @{
-    ViewBag.Title = "Result list";
+    //int count = ViewBag.NumOfPage * 10 + 1;
+    int numOfPage = ViewBag.NumOfPage + 1;
     String adminName = System.Configuration.ConfigurationManager.AppSettings["AdminRoleName"];
 }
 
-<legend>Result list</legend>
-@if (User.IsInRole(adminName))
-{
-    <p>
-        @Html.ActionLink("Create new", "AddResult", null, new { @class = "btn btn-default" })
-        @Html.ActionLink("Delete all", "DeleteAllResults", null, new { @class = "btn btn-default" })
-    </p>
-}
+<legend>Result list, page @numOfPage</legend>
 
-<div id="resultsList">
-    @Html.Partial("ResultsPartial")
-</div>
-
-@*<table class="table table-striped table-hover ">
+<table class="table table-striped table-hover ">
     <thead>
         <tr>
             <th>
@@ -61,10 +51,16 @@
                 {
                     <td>
                         @Html.ActionLink("Edit", "EditResult", new { index = item.Id }) ||
-                        @Html.ActionLink("Delete", "DeleteResult", new {  index = item.Id  })
+                        @Html.ActionLink("Delete", "DeleteResult", new { index = item.Id })
                     </td>
                 }
             </tr>
         }
     </tbody>
-</table>*@
+</table>
+
+@Ajax.ActionLink("Previous", "ResultsListPartial", "Results", new { pageNum = ViewBag.NumOfPage - 1 },
+                                    new AjaxOptions { UpdateTargetId = "resultsList" }, new { @class = "btn btn-default" })
+@Ajax.ActionLink("Next", "ResultsListPartial", "Results",
+                                        new { pageNum = ViewBag.NumOfPage + 1 },
+                                new AjaxOptions { UpdateTargetId = "resultsList" }, new { @class = "btn btn-default" })

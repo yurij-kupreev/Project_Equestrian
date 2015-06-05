@@ -11,7 +11,7 @@ using System.Configuration;
 
 namespace MvcPL.Controllers
 {
-    [CustomExceptionFilter]
+    //[CustomExceptionFilter]
     public class HomeController : Controller
     {
         private readonly IResultService resultService;
@@ -31,18 +31,45 @@ namespace MvcPL.Controllers
         [Authorize]
         public ActionResult AthleteList()
         {
-            var model = athleteService.GetAllAthleteEntities()
+            var model = athleteService.GetAllAthleteEntities(0)
                 .Select(athlete => athlete.ToAthleteView());
+            ViewBag.NumOfPage = 0;
             return View(model);
+        }
+
+        [Authorize]
+        public ActionResult AthletesListPartial(int? pageNum)
+        {
+            if (pageNum == null || pageNum.Value < 0)
+                return HttpNotFound();
+            var model = athleteService.GetAllAthleteEntities(pageNum.Value)
+                .Select(athlete => athlete.ToAthleteView());
+            if (model == null || model.Count() == 0) return HttpNotFound();
+            ViewBag.NumOfPage = pageNum.Value;
+            return PartialView("AthletesPartial", model);
         }
 
         [Authorize]
         public ActionResult CompetitionList()
         {
-            var model = competitionService.GetAllCompetitionEntities()
+            var model = competitionService.GetAllCompetitionEntities(0)
                 .Select(competition => competition.ToCompetitionView());
+            ViewBag.NumOfPage = 0;
             return View(model);
         }
+
+        [Authorize]
+        public ActionResult CompetitionsListPartial(int? pageNum)
+        {
+            if (pageNum == null || pageNum.Value < 0)
+                return HttpNotFound();
+            var model = competitionService.GetAllCompetitionEntities(pageNum.Value)
+                .Select(competition => competition.ToCompetitionView());
+            if (model == null || model.Count() == 0) return HttpNotFound();
+            ViewBag.NumOfPage = pageNum.Value;
+            return PartialView("CompetitionsPartial", model);
+        }
+
 
         [Authorize]
         public ActionResult AthleteResultsPartial(int? athleteKey)
@@ -71,7 +98,7 @@ namespace MvcPL.Controllers
                 var model = resultService.GetCompetitionResults(competitionKey.Value)
                            .Select(result => result.ToResultView());
                 ViewBag.ViewTitle = model.First().CompetitionProgram;
-                return PartialView("ResultsPartial", model);
+                return PartialView("ResultsListPartial", model);
             }
         }
 

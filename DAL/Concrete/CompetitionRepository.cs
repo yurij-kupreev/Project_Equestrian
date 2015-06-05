@@ -20,7 +20,7 @@ namespace DAL.Concrete
             this.context = uow;
         }
 
-        public IEnumerable<DalCompetition> GetAll()
+        public IQueryable<DalCompetition> GetAll()
         {
             return context.Set<Competition>().Select(competition => new DalCompetition()
                         {

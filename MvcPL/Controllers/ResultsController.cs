@@ -12,7 +12,7 @@ using System.Web.Mvc;
 
 namespace MvcPL.Controllers
 {
-    [CustomExceptionFilter]
+   // [CustomExceptionFilter]
     [Authorize(Roles = "admin")]
     public class ResultsController : Controller
     {
@@ -28,8 +28,20 @@ namespace MvcPL.Controllers
 
         public ActionResult ResultList()
         {
-            return View(resultService.GetAllResultEntities()
+            ViewBag.NumOfPage = 0;
+            return View(resultService.GetAllResultEntities(0)
                 .Select(result => result.ToResultView()));
+        }
+
+        public ActionResult ResultsListPartial(int? pageNum)
+        {
+            if (pageNum == null || pageNum.Value < 0)
+                return HttpNotFound();
+            var model = resultService.GetAllResultEntities(pageNum.Value)
+                .Select(result => result.ToResultView());
+            if (model == null || model.Count() == 0) return HttpNotFound();
+            ViewBag.NumOfPage = pageNum.Value;
+            return PartialView("ResultsPartial", model);
         }
 
         [HttpGet]

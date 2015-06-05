@@ -265,12 +265,15 @@
     <Content Include="Views\Shared\_Authorize.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\ResultsPartial.cshtml" />
     <Content Include="Views\Results\ResultList.cshtml" />
     <Content Include="Views\Results\AddResults.cshtml" />
     <Content Include="Views\Results\ConfirmAction.cshtml" />
     <Content Include="Views\Results\AddResult.cshtml" />
     <Content Include="Views\Shared\ExceptionFound.cshtml" />
+    <Content Include="Views\Home\AthletesPartial.cshtml" />
+    <Content Include="Views\Home\CompetitionsPartial.cshtml" />
+    <Content Include="Views\Home\ResultsListPartial.cshtml" />
+    <Content Include="Views\Results\ResultsPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Uploads\" />

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<MvcPL.Models.CompetitionViewModel>
+
+@{
+    int count = ViewBag.NumOfPage * 10 + 1;
+    int numOfPage = ViewBag.NumOfPage + 1;
+}
+
+
+<legend>Competition list, page @numOfPage</legend>
+
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>
+                №
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Program)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateBegin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateEnd)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @count
+                    @{count = count + 1;}
+                </td>
+                <td>
+                    @Ajax.ActionLink(item.Title, "CompetitionResultsPartial",
+                        new { competitionKey = item.Id },
+                        new AjaxOptions { UpdateTargetId = "competitionResult" })
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Program)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateBegin)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateEnd)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Ajax.ActionLink("Previous", "CompetitionsListPartial",
+                                            new { pageNum = ViewBag.NumOfPage - 1 },
+                                    new AjaxOptions { UpdateTargetId = "competitionsList" }, new { @class = "btn btn-default" })
+@Ajax.ActionLink("Next", "CompetitionsListPartial",
+                                        new { pageNum = ViewBag.NumOfPage + 1 },
+                                new AjaxOptions { UpdateTargetId = "competitionsList" }, new { @class = "btn btn-default" })
