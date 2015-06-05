@@ -274,6 +274,7 @@
     <Content Include="Views\Home\CompetitionsPartial.cshtml" />
     <Content Include="Views\Home\ResultsListPartial.cshtml" />
     <Content Include="Views\Results\ResultsPartial.cshtml" />
+    <Content Include="Views\Shared\_Results.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Uploads\" />
