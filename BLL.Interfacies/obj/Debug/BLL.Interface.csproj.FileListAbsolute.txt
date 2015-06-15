@@ -21,3 +21,4 @@ D:\Учеба\курсач2\course_project_equestrian\BLL.Interfacies\bin\Debug\
 D:\Учеба\курсач2\course_project_equestrian\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
 D:\Учеба\курсач2\course_project_equestrian\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
 D:\Учеба\курсач2\course_project_equestrian\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
