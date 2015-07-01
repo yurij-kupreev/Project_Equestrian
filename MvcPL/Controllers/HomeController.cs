@@ -31,21 +31,23 @@ namespace MvcPL.Controllers
         [Authorize]
         public ActionResult AthleteList()
         {
-            var model = athleteService.GetAllAthleteEntities(0)
+            var model = athleteService.GetAllAthleteEntities(0, null)
                 .Select(athlete => athlete.ToAthleteView());
             ViewBag.NumOfPage = 0;
+            ViewBag.Name = null;
             return View(model);
         }
 
         [Authorize]
-        public ActionResult AthletesListPartial(int? pageNum)
+        public ActionResult AthletesListPartial(int? pageNum, string predicate)
         {
             if (pageNum == null || pageNum.Value < 0)
                 return HttpNotFound();
-            var model = athleteService.GetAllAthleteEntities(pageNum.Value)
+            var model = athleteService.GetAllAthleteEntities(pageNum.Value, predicate)
                 .Select(athlete => athlete.ToAthleteView());
             if (model == null || model.Count() == 0) return HttpNotFound();
             ViewBag.NumOfPage = pageNum.Value;
+            ViewBag.Name = predicate;
             return PartialView("AthletesPartial", model);
         }
 
@@ -103,9 +105,11 @@ namespace MvcPL.Controllers
         }
 
         [Authorize]
-        public ActionResult AthleteSearch(string name)
+        public ActionResult AthleteSearch(string predicate)
         {
-            var athletes = athleteService.GetAthletesByName(name).Select(item => item.ToAthleteView());
+            var athletes = athleteService.GetAllAthleteEntities(0, predicate).Select(item => item.ToAthleteView());
+            ViewBag.NumOfPage = 0;
+            ViewBag.Name = predicate;
             return View("AthleteList", athletes);
         }
     }

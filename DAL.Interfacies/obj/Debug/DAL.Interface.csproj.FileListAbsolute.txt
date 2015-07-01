@@ -20,3 +20,4 @@ D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\bin\Debug\
 D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
 D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
 D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+D:\Учеба\курсач2\course_project_equestrian\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache

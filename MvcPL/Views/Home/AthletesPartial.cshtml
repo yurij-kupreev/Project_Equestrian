@@ -52,8 +52,8 @@
 </table>
 
 @Ajax.ActionLink("Previous", "AthletesListPartial",
-                                            new { pageNum = ViewBag.NumOfPage - 1},
+                                            new { pageNum = ViewBag.NumOfPage - 1, predicate = ViewBag.Name},
                                 new AjaxOptions { UpdateTargetId = "athletesList" }, new { @class = "btn btn-default" })
 @Ajax.ActionLink("Next", "AthletesListPartial",
-                                        new { pageNum = ViewBag.NumOfPage + 1},
+                                            new { pageNum = ViewBag.NumOfPage + 1, predicate = ViewBag.Name },
                                 new AjaxOptions { UpdateTargetId = "athletesList" }, new { @class = "btn btn-default" })

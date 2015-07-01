@@ -19,20 +19,24 @@ namespace BLL.Services
             this.athleteRepository = repository;
         }
 
-        public IEnumerable<AthleteEntity> GetAllAthleteEntities(int numPage)
+        public IEnumerable<AthleteEntity> GetAllAthleteEntities(int numPage, string predicate)
         {
-            var model = athleteRepository.GetAll().
+            IEnumerable<AthleteEntity> model;
+            if (predicate == null)
+                model = athleteRepository.GetAll().
                 OrderByDescending(p => p.Points).Skip(numPage * 10).Take(10).AsEnumerable().
                 Select(athlete => athlete.ToBllAthlete());
-            //model.Skip(numPage * 10).Take(10);
+            else model = athleteRepository.GetAll().Where(item => item.AthleteName.Contains(predicate)).
+                OrderByDescending(p => p.Points).Skip(numPage * 10).Take(10).AsEnumerable().
+                Select(athlete => athlete.ToBllAthlete());
             return model;
         }
 
-        public IEnumerable<AthleteEntity> GetAthletesByName(string term)
-        {
-            return athleteRepository.GetByName(term).OrderBy(item => item.AthleteName)
-                .Select(item => item.ToBllAthlete());
-        }
+        //public IEnumerable<AthleteEntity> GetAthletesByName(string term, int numPage)
+        //{
+        //    return athleteRepository.GetByName(term).OrderBy(item => item.AthleteName).Skip(numPage * 10).Take(10).AsEnumerable()
+        //        .Select(item => item.ToBllAthlete());
+        //}
         public AthleteEntity GetAthleteById(int athleteKey)
         {
             return athleteRepository.GetByPredicate(item => item.Id == athleteKey).ToBllAthlete();

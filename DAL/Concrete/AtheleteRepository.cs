@@ -76,21 +76,21 @@ namespace DAL.Concrete
             return athlete;
         }
 
-        public IEnumerable<DalAthlete> GetByName(string term)
-        {
-            return context.Set<Athlete>().Where(item => item.AthleteName.Contains(term))
-                        .Select(item => new DalAthlete()
-                        {
-                            Id = item.Id,
-                            AthleteName = item.AthleteName,
-                            HorseName = item.HorseName,
-                            Points = context.Set<Result>().Where(p => p.AthleteId == item.Id).
-                                                            OrderByDescending(p => p.Points).
-                                                            Select(p => p.Points).
-                                                            Take(5).
-                                                            Sum()
-                        });
-        }
+        //public IQueryable<DalAthlete> GetByName(string term)
+        //{
+        //    return context.Set<Athlete>().Where(item => item.AthleteName.Contains(term))
+        //                .Select(item => new DalAthlete()
+        //                {
+        //                    Id = item.Id,
+        //                    AthleteName = item.AthleteName,
+        //                    HorseName = item.HorseName,
+        //                    Points = context.Set<Result>().Where(p => p.AthleteId == item.Id).
+        //                                                    OrderByDescending(p => p.Points).
+        //                                                    Select(p => p.Points).
+        //                                                    Take(5).
+        //                                                    Sum()
+        //                });
+        //}
 
         public void Create(DalAthlete athlete)
         {
