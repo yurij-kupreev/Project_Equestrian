@@ -12,7 +12,7 @@ using System.Web.Mvc;
 
 namespace MvcPL.Controllers
 {
-   // [CustomExceptionFilter]
+    [CustomExceptionFilter]
     [Authorize(Roles = "admin")]
     public class ResultsController : Controller
     {
