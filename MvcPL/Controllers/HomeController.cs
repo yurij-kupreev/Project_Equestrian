@@ -8,6 +8,7 @@ using System;
 using System.Web;
 using System.IO;
 using System.Configuration;
+using System.Collections.Generic;
 
 namespace MvcPL.Controllers
 {
@@ -31,7 +32,7 @@ namespace MvcPL.Controllers
         [Authorize]
         public ActionResult AthleteList()
         {
-            var model = athleteService.GetAllAthleteEntities(0, null)
+            var model = athleteService.GetAllAthleteEntities(0)
                 .Select(athlete => athlete.ToAthleteView());
             ViewBag.NumOfPage = 0;
             ViewBag.Name = null;
@@ -43,8 +44,13 @@ namespace MvcPL.Controllers
         {
             if (pageNum == null || pageNum.Value < 0)
                 return HttpNotFound();
-            var model = athleteService.GetAllAthleteEntities(pageNum.Value, predicate)
-                .Select(athlete => athlete.ToAthleteView());
+            IEnumerable<AthleteViewModel> model;
+            if (predicate == null)
+                model = athleteService.GetAllAthleteEntities(pageNum.Value)
+                    .Select(athlete => athlete.ToAthleteView());
+            else
+                model = athleteService.GetAthletesByName(pageNum.Value, predicate)
+                    .Select(athlete => athlete.ToAthleteView());
             if (model == null || model.Count() == 0) return HttpNotFound();
             ViewBag.NumOfPage = pageNum.Value;
             ViewBag.Name = predicate;
@@ -107,7 +113,7 @@ namespace MvcPL.Controllers
         [Authorize]
         public ActionResult AthleteSearch(string predicate)
         {
-            var athletes = athleteService.GetAllAthleteEntities(0, predicate).Select(item => item.ToAthleteView());
+            var athletes = athleteService.GetAthletesByName(0, predicate).Select(item => item.ToAthleteView());
             ViewBag.NumOfPage = 0;
             ViewBag.Name = predicate;
             return View("AthleteList", athletes);
